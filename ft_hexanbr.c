@@ -15,16 +15,14 @@
 int	ft_hexanbr(unsigned long n, char c)
 {
 	long int	i;
-	int			convert;
+	int		convert;
 
 	i = 0;
 	convert = 0;
 	if (c == 'x')
 		convert = 32;
 	if (n >= 16)
-	{
 		i += ft_hexanbr(n / 16, c);
-	}
 	if (n % 16 <= 9)
 	{
 		i++;
