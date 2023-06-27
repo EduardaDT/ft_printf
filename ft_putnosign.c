@@ -18,9 +18,7 @@ int	ft_putnosign(unsigned int n)
 
 	count = 0;
 	if (n >= 10)
-	{
 		count += ft_putnosign(n / 10);
-	}
 	count++;
 	ft_putchar_fd((char)(n % 10 + 48));
 	return (count);
