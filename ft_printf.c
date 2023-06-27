@@ -48,13 +48,9 @@ int	ft_printf(const char *s, ...)
 	while (s[i] != '\0')
 	{
 		if (s[i] == '%')
-		{
 			ret += ft_printf_arg(&s[++i], ap);
-		}
 		else
-		{
 			ret += ft_putchar_fd(s[i]);
-		}
 		i++;
 	}
 	va_end(ap);
