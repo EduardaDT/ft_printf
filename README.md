@@ -21,3 +21,6 @@ The main goal of this project is to understand and reconstruct the internal work
 
 - Clone the Repository: Make a copy of this repository on your local machine.
 - Compilation: Go to the library path and run: `make`
+<br>
+
+![ft_printfe](https://github.com/EduardaDT/ft_printf/assets/98993509/ae25fd15-a0a4-4b6d-8b38-1d3fcefddba0)
